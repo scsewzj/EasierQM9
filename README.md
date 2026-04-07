@@ -44,7 +44,7 @@ Load Complete! Found 133247 samples.
 ```
 
 ## Data Format
-The complete set of 133,885 molecules is stored in a single pickled file named `qm9_data.pkl`. Each molecule is represented as a dictionary containing the following keys:
+The complete set of 133,247 molecules is stored in a single pickled file named `qm9_data.pkl`. Each molecule is represented as a dictionary containing the following keys:
 * `mol_id`: A unique identifier for the molecule (e.g., 'gdb_1').
 * `smiles`: The SMILES string representation of the molecule (e.g., 'C'). Note: it's the canonical SMILES string and normally H atoms are not explicitly represented.
 * `xyz`: A list of lists, where each inner list contains the atomic symbol and its corresponding x, y, z coordinates (e.g., [['C', -0.0127, 1.0858, 0.008]]).
