@@ -3,6 +3,12 @@ This is an implementation of the QM9 dataset in a pickled format. The data sourc
 
 Although you can find multiple versions of QM9 data from different sources, you may encounter various types of problems inc. network, incompatibility to the extraction API etc.  Now you can directly use pickle to load it! With SMILES and coordinates which offers you more wider world to explore.
 
+## Dependency
+* Pickle
+* Numpy
+* Tqdm
+##
+
 ## Quick Start
 ```python
 # You can load the QM9 dataset by running the following code:
